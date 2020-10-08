@@ -1,0 +1,60 @@
+/* RESET 2020 */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-style:normal;
+    list-style:none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+    font-size: 1.6rem sans-serif;
+    text-align:center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+main{
+    max-width:80rem;
+    margin:auto;
+    line-height:2.6rem;   
+    padding:25px;  
+}
+a {
+    color: inherit;
+    text-decoration: none;  
+
+} 
+img {
+    max-width: 100%
+}
+:root{
+    --default-color:#34314C;
+    --primary-color:#47B8E0;
+    --success-color:#56BFA1;
+    --warning-color:#D93240;
+}
+
+header,footer{
+    background-color: var(--default-color);
+    color:white;
+    padding:30px;
+}
+
+main address , #desc{
+    font-size:20px;
+}
+h2{
+    margin: 20px auto;
+}
+.picture img {
+    display:block;
+    margin : 0 auto;
+    width:50%;
+}
